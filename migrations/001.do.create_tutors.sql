@@ -1,9 +1,8 @@
 CREATE TABLE tutors (
-    id SERIAL PRIMARY KEY, 
-    image TEXT, 
     title TEXT NOT NULL, 
+    id SERIAL PRIMARY KEY, 
+    zipcode TEXT,
     content TEXT,
-    zipcode TEXT,  
-    date_created TIMESTAMPTZ DEFAULT now() NOT NULL
+    image TEXT
 ); 
 

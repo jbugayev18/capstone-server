@@ -11,7 +11,7 @@
     "start": "node src/server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master",
-    "seed": "psql -U dunder_mifflin -d my-tutor-app -f ./seeds/seed.my_tutor_app_tables.sql"
+    "seed": "psql -U jbuga -d my-tutor-app -f ./seeds/seed.my_tutor_app_tables.sql"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
