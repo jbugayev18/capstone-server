@@ -1,4 +1,4 @@
-BEGIN 
+BEGIN; 
 
 TRUNCATE 
     my_tutor_app_users,

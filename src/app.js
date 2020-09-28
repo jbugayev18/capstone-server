@@ -9,7 +9,7 @@ const TutorsRouter = require("./tutors-router/tutors-router");
 
 const app = express();
 
-const morganOption = process.env.NODE_ENV === "production" ? "tiny" : "common";
+const morganOption = NODE_ENV === "production" ? "tiny" : "common";
 
 app.use(morgan(morganOption));
 app.use(helmet());
