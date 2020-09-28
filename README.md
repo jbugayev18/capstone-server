@@ -1,26 +1,34 @@
-# Express Boilerplate!
+Hello User, this is my React Tutoring App that allows a user to find a tutor catered to designated zip codes in the Los Angeles county!
 
-This is a boilerplate project used for starting new projects!
+A live link to my app can be found: https://tutor-app-6fsgcllgt.vercel.app/
 
-## Set up
+Documentation of API: http://localhost:8000/api/tutors
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Summary:
+The purpose of this application is for the user to be able to find a tutor catered to selected zipcodes provided from the website. The user is then able to see a tutor that would be available depending on the zip code selected. The user is also able to view all of the tutors provided when clicking on the navigation bar and selecting the "Find Tutor" option. The application also provides buttons on the homepage that are designated for the school subject the user is interested in utilizing.
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+HomePage Screenshot of the Homepage:
+<a href="https://imgur.com/EqRoBvS"><img src="https://i.imgur.com/EqRoBvS.png" title="source: imgur.com" /></a>
 
-## Scripts
+Now the user is able to select from a dropdown of zipcodes and click on the "Submit" button, in which a designated tutor based on the selected zipcode will display on the screen.
 
-Start the application `npm start`
+Designated Tutor Based on Zip Code screenshot:
+<a href="https://imgur.com/c2y9S1e"><img src="https://i.imgur.com/c2y9S1e.png" title="source: imgur.com" /></a>
 
-Start nodemon for the application `npm run dev`
+A user can also navigate to a new page where all of the tutors are found:
 
-Run the tests `npm test`
+List of All Tutors:
+<a href="https://imgur.com/1YLs0RS"><img src="https://i.imgur.com/1YLs0RS.png" title="source: imgur.com" /></a>
 
-## Deploying
+A user can also select a subject that is provided on the homepage, which will navigate the user to a new page with links to the designated subject resources:
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+Page of Subject Resources:
+<a href="https://imgur.com/xtzhfIl"><img src="https://i.imgur.com/xtzhfIl.png" title="source: imgur.com" /></a>
+
+Technology Used:
+
+Front End: Javascript, React, HTML5, CSS3
+
+Back End: Node.js, Express, PostgreSQL, Mocha, Chai, RESTful APIs
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
